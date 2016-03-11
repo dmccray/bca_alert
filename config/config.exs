@@ -33,4 +33,5 @@ config :bca_alert, BcaAlert.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "bca_alert_dev",
   username: "postgres",
-  password: "postgres"
+  password: "postgres",
+  hostname: "localhost"
